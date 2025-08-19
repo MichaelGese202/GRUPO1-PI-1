@@ -27,4 +27,4 @@ Este repositorio incluye:
 **README.md:** Este archivo, con la información general del proyecto.
 
 ## 🌟 Integrantes del Grupo 1
-. Andres Andres, Michael Geser
+✔️ Andres Andres, Michael Geser
