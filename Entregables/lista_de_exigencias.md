@@ -12,7 +12,7 @@
   <tr>
     <td><strong>PROYECTO:</strong></td>
     <td colspan="3">SoilScope</td>
-    <td><strong>Fecha:</strong> 15/06/2025</td>
+    <td><strong>Fecha:</strong> 18/08/2025</td>
   </tr>
   <tr>
     <td><strong>CLIENTE:</strong></td>
@@ -21,7 +21,7 @@
   </tr>
   <tr>
     <td colspan="4"></td>
-    <td><strong>Elaborado:</strong><br>C.Y, P.R, J.R., M.A.</td>
+    <td><strong>Elaborado:</strong><br>A.D, D.H, MG.A, M.A, Y.H</td>
   </tr>
 </table>
 
