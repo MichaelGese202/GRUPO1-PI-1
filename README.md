@@ -2,4 +2,4 @@
 
 # 🎓 UNIVERSIDAD PERUANA CAYETANO HEREDIA
 
-![Logo](../Imagenes/cayetano.png)
+![Logo](./Imagenes/cayetano.png)
