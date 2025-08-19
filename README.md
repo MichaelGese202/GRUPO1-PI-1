@@ -36,6 +36,6 @@ Este repositorio incluye:
 
 ✔️ Huamani Huallpa, Yesenia Ibet
 
-✔️ Dueñas Condori, Aracelly Nicol
+✔️ Dueñas Condori, Aracelly Nicoll
 
 ✔️ Acevedo Valer Milagros Soledad
