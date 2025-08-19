@@ -28,3 +28,7 @@ Este repositorio incluye:
 
 ## 🌟 Integrantes del Grupo 1
 ✔️ Andres Andres, Michael Geser
+✔️
+✔️
+✔️
+✔️
