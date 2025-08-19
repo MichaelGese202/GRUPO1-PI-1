@@ -34,6 +34,6 @@ Este repositorio incluye:
 
 ✔️ Hermoza Quispe, Daniel Rodrigo
 
-✔️
+✔️ Huamani Huallpa Yesenia Ibet
 ✔️
 ✔️
