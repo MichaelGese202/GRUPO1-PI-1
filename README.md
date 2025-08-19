@@ -40,4 +40,4 @@ Este repositorio incluye:
 
 ✔️ Acevedo Valer, Milagros Soledad
 
-✔️ Greysi
+✔️ Delgado Gahona, Greisy Jhoana
