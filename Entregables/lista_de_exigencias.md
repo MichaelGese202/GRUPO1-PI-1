@@ -39,3 +39,6 @@
     <tr>
       <td>14/05/25</td>
       <td>E</td>
+      <td>Función Principal:Monitorear de forma intermitente y remota las condiciones del suelo (humedad volumétrica, temperatura y nutrientes NPK) para apoyar la toma de decisiones en riego y fertilización de café (11) </td>
+      <td>Y.C.</td>
+    </tr>
