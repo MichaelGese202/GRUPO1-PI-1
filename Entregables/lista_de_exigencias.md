@@ -49,3 +49,19 @@
         Cada módulo sensor ocupa una área no mayor a 0.3 m², con altura  máxima de 30 cm (incluye parte enterrada de la plantación).
       </td>
       <td>D.H.</td>
+     </tr>
+    <tr>
+      <td>18/08/25</td>
+      <td>E</td>
+      <td>Cinemática:
+        El diseño permite inserción y extracción sin alterar el estado del terreno ni afectar el crecimiento radicular.
+      </td>
+      <td>M.A.</td>
+     </tr>
+    <tr>
+      <td>18/08/25</td>
+      <td>E</td>
+      <td>Fuerzas: El sistema se inserta en suelos compactos sin necesidad de maquinaria pesada. </td>
+      <td>D.H.</td>
+    </tr>
+      
