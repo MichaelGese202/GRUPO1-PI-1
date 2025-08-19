@@ -34,6 +34,8 @@ Este repositorio incluye:
 
 ✔️ Hermoza Quispe, Daniel Rodrigo
 
-✔️ Huamani Huallpa Yesenia Ibet
-✔️
-✔️
+✔️ Huamani Huallpa, Yesenia Ibet
+
+✔️ Dueñas Condori, Aracelly Nicol
+
+✔️ Acevedo Valer Milagros Soledad
