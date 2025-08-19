@@ -22,8 +22,11 @@ Diseñar y desarrollar un sistema de monitoreo de suelos agrarios que permita me
 Este repositorio incluye:
 
 **Entregables:** Avances parciales y entregas oficiales del curso.
+
 **Recursos:** Bibliografía, artículos técnicos y materiales de apoyo.
+
 **Imágenes y Diagramas:** Representaciones visuales del prototipo y su evolución.
+
 **README.md:** Este archivo, con la información general del proyecto.
 
 ## 🌟 Integrantes del Grupo 1
