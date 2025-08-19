@@ -37,8 +37,15 @@
   </thead>
   <tbody>
     <tr>
-      <td>14/05/25</td>
+      <td>18/08/25</td>
       <td>E</td>
-      <td>Función Principal:Monitorear de forma intermitente y remota las condiciones del suelo (humedad volumétrica, temperatura y nutrientes NPK) para apoyar la toma de decisiones en riego y fertilización de café (11) </td>
-      <td>Y.C.</td>
+      <td>Monitorear de forma intermitente y remota las condiciones del suelo (humedad volumétrica, temperatura y nutrientes NPK) para apoyar la toma de decisiones en riego y fertilización en cultivos de café [1] </td>
+      <td>M.A.</td>
     </tr>
+    <tr>
+      <td>18/08/25</td>
+      <td>E</td>
+      <td>Geometría: 
+        Cada módulo sensor ocupa una área no mayor a 0.3 m², con altura  máxima de 30 cm (incluye parte enterrada de la plantación).
+      </td>
+      <td>D.H.</td>
