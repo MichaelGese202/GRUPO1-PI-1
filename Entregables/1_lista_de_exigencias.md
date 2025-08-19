@@ -60,7 +60,4 @@ Visualización en dashboard web o app móvil.
 | 18/08/25 | E    | Costos              |  El costo total no superará los S/ 500, priorizando sensores y microcontroladores de bajo costo y disponibilidad local. Es claro y medible por el límite establecido, realista en función del presupuesto académico, verificable mediante cotizaciones y neutral al no depender de proveedores específicos. Existen sensores de humedad y NPK accesibles en el mercado que cumplen con este criterio (3,4).                                                                                                                                                                   | A.D         |
 | 18/08/25 | E    | Plazos              | El proyecto se desarrollará en 138 horas efectivas, entre el 19 de agosto y el 9 de diciembre de 2025, con hitos definidos en un cronograma. Es un requerimiento claro y medible, realista por los tiempos disponibles, verificable al compararlo con el avance y neutral respecto a las herramientas de planificación. Este enfoque es coherente con lineamientos de gestión propuestos para la planificación agrícola y ambiental (5).                                                                                                                                                                                                   | M.A         |
 
-      <td>Fuerzas: El sistema se inserta en suelos compactos sin necesidad de maquinaria pesada. </td>
-      <td>D.H.</td>
-    </tr>
-      
+     
