@@ -1,11 +1,11 @@
-##✔️ Andres Andres, Michael Geser
+## Andres Andres, Michael Geser
 
-##✔️ Hermoza Quispe, Daniel Rodrigo
+## Hermoza Quispe, Daniel Rodrigo
 
-##✔️ Huamani Huallpa, Yesenia Ibet
+## Huamani Huallpa, Yesenia Ibet
 
-##✔️ Dueñas Condori, Aracelly Nicoll
+## Dueñas Condori, Aracelly Nicoll
 
-##✔️ Acevedo Valer, Milagros Soledad
+## Acevedo Valer, Milagros Soledad
 
-##✔️ Delgado Gahona, Greisy Jhoana
+## Delgado Gahona, Greisy Jhoana
