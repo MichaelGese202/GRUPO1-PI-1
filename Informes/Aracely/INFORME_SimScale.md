@@ -25,4 +25,7 @@ La imagen 3 muestra una simulación del desplazamiento de un modelo 3D bajo la a
 ![Logo](/Imagenes/ARA_2.png)
 
 ### **IMAGEN N° 04**
+En la imagen se muestra una simulación de un modelo estructural, donde se analizan los desplazamientos de la pieza bajo condiciones estáticas. Usé un mapa de colores para representar las deformaciones: el azul indica las zonas con menos desplazamiento y el verde y amarillo las áreas con mayor deformación. El factor de escala aplicado es de 3.343, lo que amplifica los desplazamientos para hacerlos más visibles en la simulación, aunque no reflejan una deformación real. Este tipo de análisis se utiliza para estudiar cómo la estructura responde a diferentes fuerzas, usando un software de elementos finitos (FEA).
 ![Logo](/Imagenes/ARA_3.png)
+
+## **REFERENCIAS BIBLIOGRÁFICAS**
