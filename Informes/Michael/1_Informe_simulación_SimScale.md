@@ -2,4 +2,4 @@
 
 ### Evidencia 1 Fuerza de Tracción
 
-![Michael](.../Imagenes/Michael1.png)
+![Michael](../Imagenes/Michael1.png)
