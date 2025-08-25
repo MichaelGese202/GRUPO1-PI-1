@@ -121,13 +121,13 @@
 <tr>
   <td>18/08/25</td>
   <td>E</td>
-  <td>Ergonomía: Los elementos de control del equipo serán ubicados y ajustados en una altura y posición que prevenga molestias o riesgos para la salud del operador. Este diseño se alineará con los estándares de la norma ISO 7250, que establece las dimensiones corporales básicas necesarias para crear dispositivos tecnológicos ergonómicos y seguros.</td>
+  <td>Ergonomía: Los elementos de control del equipo se ubicarán y ajustarán a una altura y posición que evitan incomodidades y riesgos para la salud del operador. El diseño se fundamenta en los lineamientos de la norma ISO 7250, la cual define las dimensiones corporales básicas para el diseño ergonómico de dispositivos tecnológicos. Considerando las estaturas promedio de referencia, 178 cm para hombres y 165 cm para mujeres, se garantizará que el sistema pueda ser operado de manera cómoda, segura y eficiente por la mayoría de los usuarios.</td>
   <td>Y.H</td>
 </tr>
 <tr>
   <td>18/08/25</td>
   <td>E</td>
-  <td>Fabricación: La construcción del equipo consiste en el uso de materiales y componentes electrónicos disponibles en el mercado nacional, facilitando la reposición y mantenimiento de las partes. Es importante que los actuadores, sensores y demás elementos electrónicos sean accesibles localmente para asegurar tiempos de respuesta ágiles. Además, el ensamblaje se realizará en talleres próximos, lo que permitirá un transporte más sencillo y un mantenimiento eficiente.</td>
+  <td>Fabricación: El sistema deberá cumplir estrictamente con los requisitos de diseño establecidos (dimensiones, tolerancias y materiales), así como con las normativas vigentes de seguridad, sanidad, producción y medio ambiente. Para este fin, los integrantes del área de ingeniería ambiental serán responsables de investigar y verificar la normativa técnica aplicable al sector agrícola y al uso de sensores de monitoreo de suelos. Asimismo, se establecerán procedimientos de calibración periódica para los sensores de humedad y temperatura, recomendándole una frecuencia mínima de cada 6 meses o posterior a condiciones críticas de operación (como lluvias intensas, variaciones extremas de temperatura o mantenimientos correctivos). Esta práctica garantizará la precisión, coherencia y confiabilidad de los datos obtenidos, aspectos fundamentales para la toma de decisiones en entornos rurales..</td>
   <td>M.A</td>
 </tr>
 <tr>
