@@ -17,7 +17,7 @@ En esta simulación de SimScale, a un modelo de PLA se le aplicaron fuerzas de 1
 ![Logo](/Imagenes/ARA_4.png)
 
 ### **IMAGEN N° 02**
-
+Se realizó la simulación de malla Mesh 2 en la plataforma SimScale, utilizando un tamaño de malla automático con una finura de 5, lo que asegura un equilibrio entre precisión y velocidad. Esta etapa es fundamental para obtener resultados precisos en las siguientes fases del análisis.
 
 ![Logo](/Imagenes/ARA_1.png)
 
