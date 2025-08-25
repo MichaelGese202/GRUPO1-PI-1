@@ -21,6 +21,7 @@ Se realizó la simulación de malla Mesh 2 en la plataforma SimScale, utilizando
 ![Logo](/Imagenes/ARA_1.png)
 
 ### **IMAGEN N° 03**
+La imagen 3 muestra una simulación del desplazamiento de un modelo 3D bajo la acción de fuerzas. El análisis muestra cómo se distribuye el estrés de Von Mises, que es una medida de la intensidad del esfuerzo en el material debido a las fuerzas aplicadas. Las áreas azules indican zonas con poco estrés, donde las fuerzas son menores, mientras que las áreas rojas muestran las zonas de mayor estrés, donde las fuerzas aplicadas son más intensas. Esto ayuda a identificar las partes del modelo que están más susceptibles a fallas o deformaciones.
 ![Logo](/Imagenes/ARA_2.png)
 
 ### **IMAGEN N° 04**
