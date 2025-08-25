@@ -2,7 +2,7 @@
 
 # 🎓 UNIVERSIDAD PERUANA CAYETANO HEREDIA
 
-![Logo](./Imagenes/cayetano.png)
+sdjdsssjjsgd ![Logo](./Imagenes/cayetano.png) djhsdhfjsjdgh
 
 ## 🚀 Grupo 1 – Proyectos de Ingeniería I ⚙️
 
