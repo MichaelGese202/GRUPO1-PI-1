@@ -13,8 +13,8 @@ En esta simulación, se analizan las tensiones y desplazamientos que ocurren en 
 
 ![Logo](/Imagenes/ARA_4.png)
 
-![Logo](/Imagenes/ARA_3.png)
+![Logo](/Imagenes/ARA_1.png)
 
 ![Logo](/Imagenes/ARA_2.png)
 
-![Logo](/Imagenes/ARA_1.png)
+![Logo](/Imagenes/ARA_3.png)
