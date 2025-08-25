@@ -11,14 +11,14 @@ SimScale es una plataforma en línea que permite realizar simulaciones de ingeni
 **Descripción de la Simulación en SimScale**
 En esta simulación, se analizan las tensiones y desplazamientos que ocurren en una estructura bajo una carga estática. El objetivo es ver cómo la estructura reacciona a las fuerzas aplicadas.
 
-###**IMAGEN N° 01**
+### **IMAGEN N° 01**
 ![Logo](/Imagenes/ARA_4.png)
 
-###**IMAGEN N° 02**
+### **IMAGEN N° 02**
 ![Logo](/Imagenes/ARA_1.png)
 
-###**IMAGEN N° 03**
+### **IMAGEN N° 03**
 ![Logo](/Imagenes/ARA_2.png)
 
-###**IMAGEN N° 04**
+### **IMAGEN N° 04**
 ![Logo](/Imagenes/ARA_3.png)
