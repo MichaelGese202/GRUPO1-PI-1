@@ -17,7 +17,7 @@ Imagen 2 – Fuerza aplicada:
 
 En esta etapa se definieron las condiciones de carga del modelo. Se aplicaron fuerzas de 45 N en los ejes X, Y y Z sobre una de las caras del Componente de cierre cilíndrico 3D. La flecha verde indica la dirección del vector de fuerza, mientras que la superficie resaltada corresponde al área donde se ejerce la carga.
 
-![Yesenial](/Imagenes/Ibe2.png)
+![Yesenial](/Imagenes/Ibet2.png)
 
 Imagen 3 – Calidad de malla (volumen):
 
