@@ -41,3 +41,4 @@ Este repositorio incluye:
 ✔️ Acevedo Valer, Milagros Soledad
 
 ✔️ Delgado Gahona, Greisy Jhoana
+![](https://github.com/MichaelGese202/GRUPO1-PI-1/blob/main/Imagenes/Mi%20foto.jpg)
