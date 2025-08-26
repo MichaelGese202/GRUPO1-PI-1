@@ -8,6 +8,8 @@ Estudiante de Ingeniería Informática
  ![Greisy](/Imagenes/delgado1.png)
  
 ## Dueñas Condori, Aracelly Nicoll
+![Aracely](/Imagenes/ARAÑA.PNG).
+
 ## Hermoza Quispe, Daniel Rodrigo
 ## Huamani Huallpa, Yesenia Ibet 
 
