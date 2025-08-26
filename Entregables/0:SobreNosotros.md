@@ -2,7 +2,7 @@
 Estudiante de Ingeniería Informática
 
 ## Andres Andres, Michael Geser
-![Michael](/Imagenes/Andres.png)
+![Michael](/Imagenes/Andres1.png)
 
 ## Delgado Gaona, Greisy Jhoana
 Mi nombre es Greisy Jhoana Delgado Gaona, soy estudiante de Ingeniería Ambiental y vivo en la región de Amazonas. Tengo un gran interés en el desarrollo tecnológico aplicado a proyectos que contribuyan a la solución de problemas ambientales y sociales.
