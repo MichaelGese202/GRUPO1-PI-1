@@ -45,13 +45,13 @@
     <tr>
       <td>18/08/25</td>
       <td>E</td>
-      <td>Geometria: Cada módulo sensor ocupa una área no mayor a 0.3 m², con altura mínima de 3 m (incluye parte enterrada de la plantación).</td>
+      <td>Geometria: El prototipo tiene una medición estimada de 20cm * 20cm de base y una latura mínima de 50cm, definida para permitir la inserción del sensor en el suelo y dejar visuble la parte del sistema. </td>
       <td>D.H</td>
     </tr>
     <tr>
       <td>18/08/25</td>
       <td>E</td>
-      <td>Cinemática: El diseño permite inserción y extracción sin alterar el estado del terreno ni afectar el crecimiento radicular.</td>
+      <td>Cinemática: El prototipo contempla un panel solar con orientación ajustable al sol, mientras que la base es estática.</td>
       <td>M.A</td>
     </tr>
     <tr>
