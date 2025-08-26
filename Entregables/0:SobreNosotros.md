@@ -1,4 +1,6 @@
 ## Acevedo Valer, Milagros Soledad
+Estudiante de Ingeniería Informática
+
 ## Andres Andres, Michael Geser
 Soy estudiante de Ingeniería Ambiental..
 
