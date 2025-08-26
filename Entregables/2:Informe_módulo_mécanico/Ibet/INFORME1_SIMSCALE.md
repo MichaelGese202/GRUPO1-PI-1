@@ -8,7 +8,8 @@ La presente actividad tuvo como objetivo adquirir práctica en el uso de SimScal
  Imagen 1 – Mallado del modelo: 
 
 En la figura se muestra el proceso de enmallado del “Componente de cierre cilíndrico 3D”, donde la geometría se discretiza en elementos finitos. Este mallado permite realizar el análisis estructural estático, dividiendo el modelo en pequeñas secciones triangulares que facilitan el cálculo de esfuerzos y desplazamientos en la simulación.
-![Yesenial](/Imagenes/Ibet1.png)
+![Yesenial](/Imagenes/Ibet1.png) 
+
 
 
 
