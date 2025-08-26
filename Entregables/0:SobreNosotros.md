@@ -15,5 +15,7 @@ Mi objetivo es seguir creciendo personal y profesionalmente, aportando con mis c
 ## Dueñas Condori, Aracelly Nicoll
 ## Hermoza Quispe, Daniel Rodrigo
 ## Huamani Huallpa, Yesenia Ibet 
+
+
  
 
