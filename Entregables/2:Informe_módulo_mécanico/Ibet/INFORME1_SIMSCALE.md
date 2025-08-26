@@ -1,5 +1,8 @@
 ## Yesenia Ibet, Huamani Huallpa
 
+La presente actividad tuvo como objetivo adquirir práctica en el uso de SimScale, con la intención de familiarizarnos con el proceso de modelado, asignación de materiales, aplicación de cargas y análisis de resultados. Esto permitió comprender de manera general las estrategias de diseño y validación estructural de carcasas o componentes empleados en proyectos de ingeniería 1.
+
+
 ## Componente de cierre cilíndrico 3D
 
  Imagen 1 – Mallado del modelo: 
