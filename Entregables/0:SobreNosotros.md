@@ -11,6 +11,9 @@ Estudiante de Ingeniería Informática
 ## Hermoza Quispe, Daniel Rodrigo
 ## Huamani Huallpa, Yesenia Ibet 
 
+<img width="1920" height="1080" alt="Personal Biography Presentation Template (3)" src="https://github.com/user-attachments/assets/c650c82e-d3d3-43f4-8b95-2d092bee53b7" />
+
+
 
  
 
