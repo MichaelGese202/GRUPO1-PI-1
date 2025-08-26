@@ -13,7 +13,8 @@ Estudiante de Ingeniería Informática
 ## Hermoza Quispe, Daniel Rodrigo
 ## Huamani Huallpa, Yesenia Ibet 
 
-![Yesenia WhatsApp Image 2025-08-26 at 12 45 40 AM](https://github.com/user-attachments/assets/1b491895-fb21-455b-98a1-ee37b98f7a13)
+![Yesenia WhatsApp Image 2025-08-26 at 12 50 53 AM](https://github.com/user-attachments/assets/55702d65-bc6f-4ff1-a5f3-b316cb2d5289)
+
 
 
 
