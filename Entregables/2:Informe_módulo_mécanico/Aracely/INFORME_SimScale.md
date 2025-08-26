@@ -11,7 +11,7 @@ NOMBRE: Dueñas Condori, Aracely Nicoll
 En esta simulación, se analizan las tensiones y desplazamientos que ocurren en una estructura bajo una carga estática. El objetivo es ver cómo la estructura reacciona a las fuerzas aplicadas.
 
 ### **IMAGEN N° 01**
-En esta simulación de SimScale, a un modelo de PLA se le aplicaron fuerzas de 100 N en las direcciones X, Y y Z. Estas fuerzas actúan sobre una cara del modelo, identificada como "face 477@Part 1". El objetivo de la simulación es analizar cómo el material responde bajo estas condiciones de carga. Actualmente, el análisis está en ejecución y la malla ya está configurada para estudiar el comportamiento del componente.
+Para este análisis se utilizó la plataforma SimScale con el fin de evaluar el comportamiento de un modelo de PLA sometido a cargas externas. Sobre la cara identificada como face 477@Part 1 se aplicó una fuerza de tracción con componentes de 100 N en los ejes X, Y y Z. Esta condición permitió someter la pieza a un esfuerzo combinado de tracción en las tres direcciones principales.
 
 ![Logo](/Imagenes/ARA_4.png)
 
