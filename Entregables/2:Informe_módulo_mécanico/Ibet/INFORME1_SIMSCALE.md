@@ -22,11 +22,11 @@ En esta etapa se definieron las condiciones de carga del modelo. Se aplicaron fu
 Imagen 3 – Calidad de malla (volumen):
 
 Una vez configuradas las cargas, se procedió a evaluar la calidad del mallado generado. En la figura se muestra la distribución de la calidad de la malla, representada mediante el aspect ratio. Los colores permiten identificar las variaciones en la geometría de los elementos, señalando las regiones con mayor distorsión y garantizando un análisis más confiable.
-![Yesenial](/Imagenes/Ibet4.png)
+![Yesenial](/Imagenes/Ibet1.png)
 
 
  Imagen 4 – Simulación estructural:
  
 Finalmente, se ejecutó la simulación estática del modelo. En la figura se observa la distribución de los esfuerzos de Von Mises en el Componente de cierre cilíndrico 3D, representados en un mapa de colores. Los resultados permiten identificar las zonas de mayor y menor tensión bajo las condiciones de carga aplicadas, destacando las áreas críticas de la pieza que requieren refuerzo en su diseño.
-![Yesenial](/Imagenes/Ibet1.png) 
+![Yesenial](/Imagenes/Ibet4.png) 
 
