@@ -29,3 +29,4 @@ En la imagen se muestra una simulación de un modelo estructural, donde se anali
 ![Logo](/Imagenes/ARA_3.png)
 
 ## **REFERENCIAS BIBLIOGRÁFICAS**
+SimScale. (2025). Plataforma de simulación en la nube para análisis de fluidos, estructuras y temperatura. https://www.simscale.com
