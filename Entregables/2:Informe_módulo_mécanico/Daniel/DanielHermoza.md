@@ -14,7 +14,7 @@ Una vez definidas las condiciones iniciales, se procedió con el enmallado de la
 ![Fuerza y soporte fijo](https://github.com/MichaelGese202/GRUPO1-PI-1/blob/main/Imagenes/DanielHermozaModuloMecanico2.jpg)
 
 ### Enmallado:
-![Enmallado](https://github.com/MichaelGese202/GRUPO1-PI-1/blob/main/Imagenes/DanielLab.jpg)}
+![Enmallado](https://github.com/MichaelGese202/GRUPO1-PI-1/blob/main/Imagenes/DanielLab.jpg)
 
 ### Simulación en ejecución:
 ![Corriendo la simulación](https://github.com/MichaelGese202/GRUPO1-PI-1/blob/main/Imagenes/DanielHermozaModuloMecanico.jpg)
