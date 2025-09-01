@@ -175,6 +175,8 @@
   </tbody>
 </table>
 <section class="bibliografia">
+  <h2>Referencias</h2>
+ 
   <h2>Bibliografía</h2>
   <ol>
     <li>Instituto Nacional de Innovación Agraria (INIA). Guía técnica para el cultivo sostenible del café. Lima: INIA; 2022 [citado 2025 May 19]. Disponible en: <a href="https://repositorio.inia.gob.pe/items/5137a33f-f068-420d-b088-b7f6ea464ea3" target="_blank" rel="noopener noreferrer">https://repositorio.inia.gob.pe/bitstream/20.500.12955/2015/1/GUIA-CAFE-INIA-2022.pdf</a></li>
