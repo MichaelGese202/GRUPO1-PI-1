@@ -6,4 +6,4 @@
 ![Caja](/Imagenes/caja2.png)
 
 ## ESQUEMA DE FUNCIONES
-![Caja](/Imagenes/caja3.png)
+![Caja](/Imagenes/caja3_actual.png)
