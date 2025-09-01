@@ -177,7 +177,7 @@
 <section class="bibliografia">
   <h2>Bibliografía</h2>
   <ol>
-    <li>Instituto Nacional de Innovación Agraria (INIA). Guía técnica para el cultivo sostenible del café. Lima: INIA; 2022 [citado 2025 May 19]. Disponible en: <a href="https://repositorio.inia.gob.pe/bitstream/20.500.12955/2015/1/GUIA-CAFE-INIA-2022.pdf" target="_blank" rel="noopener noreferrer">https://repositorio.inia.gob.pe/bitstream/20.500.12955/2015/1/GUIA-CAFE-INIA-2022.pdf</a></li>
+    <li>Instituto Nacional de Innovación Agraria (INIA). Guía técnica para el cultivo sostenible del café. Lima: INIA; 2022 [citado 2025 May 19]. Disponible en: <a href="https://repositorio.inia.gob.pe/items/5137a33f-f068-420d-b088-b7f6ea464ea3" target="_blank" rel="noopener noreferrer">https://repositorio.inia.gob.pe/bitstream/20.500.12955/2015/1/GUIA-CAFE-INIA-2022.pdf</a></li>
     <li>Damia Solar. ¿Cuál es la vida útil de los paneles solares? [Internet]. 2023 [citado 2025 mayo 19]. Disponible en: <a href="https://www.damiasolar.com/blog/cual-es-la-vida-util-de-los-paneles-solares" target="_blank" rel="noopener noreferrer">https://www.damiasolar.com/blog/cual-es-la-vida-util-de-los-paneles-solares</a></li>
     <li>Redway Tech. ¿Cuánto dura una batería de litio de 12 V y 7 A [Internet]. 2023 [citado 2025 mayo 19]. Disponible en: <a href="https://www.redway-tech.com/es/how-long-will-a-12v-7ah-lithium-battery-last/" target="_blank" rel="noopener noreferrer">https://www.redway-tech.com/es/how-long-will-a-12v-7ah-lithium-battery-last/</a></li>
     <li>Renke. Soil NPK Sensor. [Internet]. [citado 2025 May 19]. Disponible en: <a href="https://www.renkeer.com/product/soil-npk-sensor/" target="_blank" rel="noopener noreferrer">https://www.renkeer.com/product/soil-npk-sensor/</a></li>
