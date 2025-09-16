@@ -10,6 +10,8 @@ Clasificación mediante K-Nearest Neighbors (KNN), un algoritmo supervisado que 
 ### Material:
 
 1. [Introducción básica](https://github.com/MichaelGese202/GRUPO1-PI-1/blob/main/Entregables/3%3AInforme_machine_learning/Milagros/1.Recordando_python.ipynb)
+2. [Regresión](https://github.com/MichaelGese202/GRUPO1-PI-1/blob/main/Entregables/3%3AInforme_machine_learning/Milagros/2.1.Regresión_Lineal.ipynb)
+3. [Clasficación](https://github.com/MichaelGese202/GRUPO1-PI-1/blob/main/Entregables/3%3AInforme_machine_learning/Milagros/3.1.Clasificación_KNN.ipynb)
 
 
 
