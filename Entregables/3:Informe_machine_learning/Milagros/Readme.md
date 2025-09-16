@@ -13,6 +13,13 @@ Clasificación mediante K-Nearest Neighbors (KNN), un algoritmo supervisado que 
 2. [Regresión](https://github.com/MichaelGese202/GRUPO1-PI-1/blob/main/Entregables/3%3AInforme_machine_learning/Milagros/2.1.Regresi%C3%B3n%20Lineal.ipynb)
 3. [Clasficación](https://github.com/MichaelGese202/GRUPO1-PI-1/blob/main/Entregables/3%3AInforme_machine_learning/Milagros/3.1.Clasificaci%C3%B3n%20KNN.ipynb)
 
+## Actividad 
+
+Con los materiales y conceptos revisados previamente, llevaremos a cabo una actividad práctica de regresión lineal. El objetivo es aplicar los fundamentos aprendidos en Python para construir un modelo que nos permita analizar la relación entre variables y realizar predicciones.
+[Informe_regresión lineal](https://github.com/MichaelGese202/GRUPO1-PI-1/blob/main/Entregables/3%3AInforme_machine_learning/Milagros/Actividad_regresi%C3%B3n_lineal.ipynb)
+
+
+
 
 
 
