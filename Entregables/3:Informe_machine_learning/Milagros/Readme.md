@@ -9,5 +9,6 @@ Regresión lineal, utilizada para modelar y predecir relaciones entre variables 
 Clasificación mediante K-Nearest Neighbors (KNN), un algoritmo supervisado que permite clasificar datos en función de su cercanía con otros ejemplos conocidos.
 ### Material:
 
-1. [Introducción básica](MichaelGese202/GRUPO1-PI-1/Entregables/3:Informe_machine_learning/Milagros/1.Recordando_python.ipynb)
+1. [Introducción básica](Entregables/3:Informe_machine_learning/Milagros/1.Recordando_python.ipynb)
+
 
