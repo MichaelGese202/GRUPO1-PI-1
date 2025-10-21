@@ -2,5 +2,8 @@
 
 ![Modelo](/Imagenes/modelo3.png)
 
-![Caja](/Imagenes/simscale.png)
+
+# Simulación del prototipo
+
+![Caja](/Imagenes/simscale.jpg)
 
