@@ -8,5 +8,7 @@
 
 # Simulación del prototipo
 
-![Caja](/Imagenes/simscale.jpg)
+![Caja](/Imagenes/cajaprincipal1.jpg)
+
+![Caja](/Imagenes/cajaprincipal2.jpg)
 
