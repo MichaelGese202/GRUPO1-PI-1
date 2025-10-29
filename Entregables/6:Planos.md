@@ -15,3 +15,7 @@
 # Plano de la tapa de la caja de los sensores
 
 ![Planos](/Imagenes/TAPA2PLANO.jpg)
+
+# Plano del prototipo completo
+
+![Planos](/Imagenes/PLANOCOMPLETO.jpg)
