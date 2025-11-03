@@ -4,6 +4,7 @@
 
 ![Modelo](/Imagenes/modelo3d2.png)
 
+![Modelo](/Imagenes/modelo3d3.png)
 
 
 # Simulación del prototipo
