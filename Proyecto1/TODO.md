@@ -1,0 +1,5 @@
+- [x] Update index.html with modern dark theme, improved layout, icons, and professional design.
+- [x] Update login.html with consistent modern styles.
+- [x] Update register.html with consistent modern styles.
+- [x] Update static/styles.css for global modern styles.
+- [ ] Test all functionalities: sensor readings, UDP messages, charts, stats, historical data, login/register.

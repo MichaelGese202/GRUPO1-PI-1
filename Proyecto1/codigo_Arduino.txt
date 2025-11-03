@@ -1,0 +1,76 @@
+#include <WiFi.h>
+#include <WiFiUdp.h>
+
+// ======== CONFIGURACIÓN DE RED ========
+const char* ssid = "UPCH_CENTRAL";      // 🔹 Cambia por tu red
+const char* password = "CAYETANO2022";  // 🔹 Cambia por tu contraseña
+
+// ======== CONFIGURACIÓN DEL SERVIDOR UDP ========
+const char* udpAddress = "172.20.24.190";  // 🔹 IP de tu laptop (Flask server)
+const int udpPort = 5005;                  // 🔹 Puerto UDP del servidor Flask
+
+WiFiUDP udp;
+
+// ======== SENSOR EN PIN D34 ========
+const int sensorPin = 34;  // GPIO34 (entrada analógica, solo lectura)
+
+// Función para leer temperatura en °C desde LM35
+float leerTemperatura() {
+  int lectura = analogRead(sensorPin);
+  float voltaje = (lectura / 4095.0) * 3.3;  // Convertir a voltaje (ADC de 12 bits, ref 3.3V)
+  float temperatura = voltaje * 100.0;       // LM35: 10mV/°C → 1V = 100°C
+  return temperatura;
+}
+
+void setup() {
+  Serial.begin(115200);
+  delay(1000);
+
+  Serial.println("\n🌐 Conectando al WiFi...");
+  WiFi.begin(ssid, password);
+
+  int intentos = 0;
+  while (WiFi.status() != WL_CONNECTED && intentos < 20) {
+    delay(1000);
+    Serial.print(".");
+    intentos++;
+  }
+
+  if (WiFi.status() == WL_CONNECTED) {
+    Serial.println("\n✅ Conexión WiFi exitosa!");
+    Serial.print("Dirección IP del ESP32: ");
+    Serial.println(WiFi.localIP());
+  } else {
+    Serial.println("\n❌ No se pudo conectar al WiFi.");
+  }
+
+  // Iniciar UDP
+  udp.begin(udpPort);
+  Serial.println("📡 UDP iniciado.");
+}
+
+void loop() {
+  // 🔹 Leer temperatura real desde el pin D34
+  float temperatura = leerTemperatura();
+
+  // 🔹 Simular otros valores de sensores
+  float humedad = random(30, 80);  // %
+  float n = random(10, 50);        // N
+  float p = random(5, 30);         // P
+  float k = random(5, 40);         // K
+
+  // 🔹 Formato del mensaje: "humedad,temperatura,n,p,k"
+  char mensaje[64];
+  snprintf(mensaje, sizeof(mensaje), "%.2f,%.2f,%.2f,%.2f,%.2f", humedad, temperatura, n, p, k);
+
+  Serial.print("📤 Enviando datos UDP: ");
+  Serial.println(mensaje);
+
+  // 🔹 Enviar al servidor Flask
+  udp.beginPacket(udpAddress, udpPort);
+  udp.write((uint8_t*)mensaje, strlen(mensaje));  // ✅ Envío correcto de texto
+  udp.endPacket();
+
+
+  delay(5000);  // Espera 5 segundos entre envíos
+}
