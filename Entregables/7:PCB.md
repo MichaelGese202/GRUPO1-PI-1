@@ -1,5 +1,5 @@
 # 3D MODELO DEL PCB
 
-![PCB](/Imagenes/pc1.jpg)
+![PCB](/Imagenes/pc1.png)
 
-![PCB](/Imagenes/pc2.jpg)
+![PCB](/Imagenes/pc2.png)
