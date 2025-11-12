@@ -2,7 +2,7 @@
 
 <div align="center">
 
-<img src="/Imagenes/cayetano.png" alt="Logo UPCH" width="300">
+<img src="/Imagenes/cayetano.png" alt="Logo UPCH" width="400">
 
 ### 🎓 Universidad Peruana Cayetano Heredia
 ### 🚀 Grupo 1 – Proyectos de Ingeniería I
