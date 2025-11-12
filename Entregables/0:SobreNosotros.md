@@ -1,5 +1,6 @@
 ## Acevedo Valer, Milagros Soledad
-Estudiante de Ingeniería Informática
+
+![Milagros](/Imagenes/valer.png)
 
 ## Andres Andres, Michael Geser
 ![Michael](/Imagenes/Andres1.png)
