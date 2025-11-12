@@ -6,7 +6,7 @@
 
 ### 💫 Acevedo Valer, Milagros Soledad
 <p align="center">
-  <img src="/Imagenes/valer.png" alt="Milagros Soledad" width="600" style="border-radius: 50%;"/>
+  <img src="/Imagenes/valer.png" alt="Milagros Soledad" width="800" style="border-radius: 50%;"/>
 </p>
 
 ---
