@@ -58,7 +58,7 @@ El siguiente esquema muestra la interrelación entre las diferentes funciones de
 
 <div align="center">
 
-<img src="/Imagenes/final3.png" alt="Esquema de Funciones" width="800">
+<img src="/Imagenes/final3.png" alt="Esquema de Funciones" width="2000">
 
 </div>
 
