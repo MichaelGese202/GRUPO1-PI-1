@@ -8,7 +8,7 @@
 
 **Análisis estructurado de alternativas de diseño mediante matriz morfológica**
 
-[🔍 Matriz Morfológica](#-análisis-de-funciones-y-alternativas-de-solución) • [⭐ Criterios de Selección](#-matriz-de-valoración-de-criterios) • [📊 Análisis](#-análisis-de-resultados)
+[🔍 Matriz Morfológica](#-análisis-de-funciones-y-alternativas-de-solución) • [⭐ Criterios de Selección](#-evaluación-ponderada-de-conceptos-de-solución) • [📊 Análisis](#-análisis-de-resultados)
 
 </div>
 
