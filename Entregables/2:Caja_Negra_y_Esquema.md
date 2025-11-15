@@ -8,7 +8,7 @@
 
 **Análisis funcional del sistema SoilScope mediante metodología de caja negra**
 
-[🔍 Entradas/Salidas](#-definición-de-entradas-y-salidas) • [💻 Software](#-entradas-y-salidas-software) • [⚙️ Funciones](#-esquema-de-funciones)
+[🔍 Entradas/Salidas](#-sistema-hardware-completo) • [💻 Software](#️-arquitectura-del-software) • [⚙️ Funciones](#-diagrama-funcional-del-sistema)
 
 </div>
 
