@@ -23,9 +23,9 @@ Este repositorio incluye:
 
 **Entregables:** Avances parciales y entregas oficiales del curso.
 
-**Recursos:** Bibliografía, artículos técnicos y materiales de apoyo.
-
 **Imágenes y Diagramas:** Representaciones visuales del prototipo y su evolución.
+
+**Proyectos 1:** codigos para el funcionamiento de los sensores y la pagina web.
 
 **README.md:** Este archivo, con la información general del proyecto.
 
