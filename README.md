@@ -14,7 +14,7 @@ La Universidad Peruana Cayetano Heredia (UPCH) es reconocida por su excelencia a
 
 ## 🔎 Objetivo del Proyecto
 
-Diseñar y desarrollar un sistema de monitoreo de suelos agrarios que permita medir en tiempo real variables críticas como humedad, temperatura y nutrientes (NPK), a fin de optimizar las decisiones de riego y fertilización. El proyecto está orientado a pequeños y medianos agricultores del VRAEM, contribuyendo a mejorar la productividad agrícola mediante una solución accesible, sostenible y validada bajo la norma VDI 2206.
+Diseñar y desarrollar un sistema de monitoreo de suelos agrarios que permita medir en tiempo real variables críticas como humedad, temperatura y nutrientes (NPK), para optimizar las decisiones de riego y fertilización. El proyecto está dirigido a pequeños y medianos agricultores de zonas productoras de café y otros cultivos similares a nivel nacional, contribuyendo a mejorar la productividad agrícola mediante una solución accesible, adaptable, sostenible y validada bajo la metodología VDI 2206.
 
 
 ## 📋 Contenido del Repositorio
@@ -25,7 +25,7 @@ Este repositorio incluye:
 
 **Imágenes y Diagramas:** Representaciones visuales del prototipo y su evolución.
 
-**Proyectos 1:** codigos para el funcionamiento de los sensores y la pagina web.
+**Proyectos 1:** Cdigos para el funcionamiento de los sensores y la pagina web.
 
 **README.md:** Este archivo, con la información general del proyecto.
 
