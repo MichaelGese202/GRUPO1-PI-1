@@ -50,7 +50,7 @@
     <tr>
       <td>18/08/25</td>
       <td>E</td>
-      <td>Geometría: El prototipo tiene una medición estimada de 20 cm * 20 cm de base y una altura mínima de 50cm, definida para permitir la inserción del sensor en el suelo y dejar visible la parte del sistema. El diseño se compone de dos elementos: módulo de sensores y el módulo superior.</td>
+      <td>Geometría: El prototipo presenta una base de 12 cm × 10 cm y una altura aproximada de 7 cm, definida para facilitar la inserción de los sensores en el suelo y mantener visible el módulo superior.</td>
       <td>D.H</td>
     </tr>
     <tr>
