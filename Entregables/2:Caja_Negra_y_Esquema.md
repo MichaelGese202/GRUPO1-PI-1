@@ -26,7 +26,7 @@ La siguiente imagen muestra el flujo completo de información del sistema, desde
 
 <div align="center">
 
-![Diagrama de Entradas y Salidas - Hardware](/Imagenes/final1.png)
+![Diagrama de Entradas y Salidas - Hardware](/Imagenes/cajaactualizado.png)
 
 </div>
 
