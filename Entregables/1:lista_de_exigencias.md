@@ -63,16 +63,7 @@
       <td>18/08/25</td>
       <td>E</td>
       <td>
-        Fuerzas: El diseño estructural del sistema debe considerar dimensiones que garanticen estabilidad frente a condiciones ambientales, como viento:<br><br>
-        ● <strong>Estación de monitoreo:</strong><br>
-        - Altura &lt; 4,5 m<br>
-        - Ancho &lt; 1 m<br>
-        - Profundidad &lt; 1 m<br><br>
-        ● <strong>Gabinete de control:</strong><br>
-        - Altura: 300–400 mm<br>
-        - Ancho: 200–450 mm<br>
-        - Profundidad: 150–200 mm<br><br>
-        Estas especificaciones ayudan a minimizar los efectos de fuerzas ambientales (e.g., viento) sobre la estructura, asegurando su operación estable en campo (2).
+        Fuerzas:El sistema está diseñado con una estructura firme y estable que le permite mantenerse operativo bajo diferentes condiciones del entorno, como viento, humedad o vibraciones del terreno. Su configuración fija evita desplazamientos o deformaciones durante el uso, asegurando un funcionamiento continuo y seguro en campo, conforme a las recomendaciones del SENAMHI sobre instalación de equipos agrometeorológicos [2]. 
       </td>
       <td>Y.H</td>
     </tr>
