@@ -71,15 +71,7 @@
       <td>18/08/25</td>
       <td>E</td>
       <td>
-        Energía: El sistema debe garantizar operación continua en zonas rurales mediante:<br><br>
-        ● <strong>Fuente primaria:</strong> red eléctrica (AC).<br>
-        ● <strong>Fuente secundaria:</strong> energía renovable (ej. panel fotovoltaico).<br>
-        ● <strong>Reserva:</strong> autonomía mínima de 24 h sin suministro primario.<br>
-        ● <strong>Conversión de energía:</strong><br>
-        - Voltaje para microcontrolador ≤ 3.3 V DC.<br>
-        - Variación de voltaje permitida: –10 % a +25 %. <br>
-        - Consumo máximo: 5 000 mAh<br><br>
-        Con ello se asegura un funcionamiento confiable y adaptable, independiente de la solución técnica específica (3).
+       Energía:El sistema opera mediante alimentación eléctrica directa, utilizando una batería recargable de litio como fuente principal y una conexión eléctrica para su recarga. La conversión de energía se ajusta a los requerimientos del microcontrolador y los sensores, garantizando un suministro estable y seguro para su funcionamiento continuo en campo, conforme a los lineamientos del MINEM para sistemas eléctricos rurales [3].
       </td>
       <td>Y.H</td>
     </tr>
