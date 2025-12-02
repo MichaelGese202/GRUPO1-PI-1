@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard - Sistema de Cultivos</title>
+    <link rel="stylesheet" href="/static/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+            margin: 0;
+            padding: 20px;
+            min-height: 100vh;
+            color: #e0e0e0;
+        }
+
+        .header {
+            background: linear-gradient(135deg, #0f3460, #16213e);
+            border-radius: 16px;
+            padding: 30px 40px;
+            margin-bottom: 40px;
+            box-shadow: 0 8px 32px rgba(0,0,0,0.3);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            border: 1px solid rgba(255,255,255,0.1);
+            position: relative;
+        }
+
+        .header h1 {
+            color: #00d4ff;
+            margin: 0;
+            font-weight: 600;
+            font-size: 28px;
+            text-shadow: 0 2px 4px rgba(0,0,0,0.5);
+        }
+
+        .header .subtitle {
+            color: #b0b0b0;
+            margin: 10px 0 0 0;
+            font-size: 16px;
+            font-weight: 400;
+        }
+
+        .logout-btn {
+            background: linear-gradient(135deg, #ff4757, #c44569);
+            color: white;
+            padding: 12px 24px;
+            border-radius: 10px;
+            text-decoration: none;
+            font-weight: 500;
+            transition: all 0.3s ease;
+            margin-top: 20px;
+            border: none;
+            cursor: pointer;
+            box-shadow: 0 4px 15px rgba(255,71,87,0.3);
+        }
+
+        .logout-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 25px rgba(255,71,87,0.4);
+            color: white;
+        }
+
+        .start-reading-btn {
+            background: linear-gradient(135deg, #00d4ff, #0099cc);
+            color: white;
+            padding: 12px 24px;
+            border-radius: 10px;
+            border: none;
+            cursor: pointer;
+            font-weight: 500;
+            transition: all 0.3s ease;
+            margin-top: 20px;
+            box-shadow: 0 4px 15px rgba(0,212,255,0.3);
+        }
+
+        .start-reading-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 25px rgba(0,212,255,0.4);
+        }
+
+        .start-reading-btn:disabled {
+            opacity: 0.6;
+            cursor: not-allowed;
+        }
+
+        .container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+            gap: 30px;
+            margin-bottom: 30px;
+            justify-items: center;
+        }
+
+        .card {
+            background: linear-gradient(135deg, #16213e, #0f3460);
+            border-radius: 16px;
+            padding: 30px;
+            box-shadow: 0 8px 32px rgba(0,0,0,0.3);
+            transition: all 0.3s ease;
+            border: 1px solid rgba(255,255,255,0.1);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 4px;
+            background: linear-gradient(90deg, #00d4ff, #0099cc);
+        }
+
+        .card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 16px 48px rgba(0,0,0,0.4);
+        }
+
+        .card h2 {
+            color: #00d4ff;
+            margin-bottom: 25px;
+            font-weight: 600;
+            font-size: 20px;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .card h2::before {
+            content: '📊';
+            font-size: 24px;
+        }
+
+        .value {
+            font-size: 42px;
+            font-weight: 700;
+            color: #00ff88;
+            margin-bottom: 8px;
+            text-shadow: 0 2px 4px rgba(0,0,0,0.5);
+        }
+
+        .unit {
+            color: #b0b0b0;
+            font-size: 16px;
+            font-weight: 400;
+        }
+
+        .npk-values {
+            display: flex;
+            gap: 25px;
+            margin-bottom: 25px;
+        }
+
+        .npk-item {
+            text-align: center;
+            flex: 1;
+            background: rgba(255,255,255,0.05);
+            padding: 15px;
+            border-radius: 10px;
+            border: 1px solid rgba(255,255,255,0.1);
+        }
+
+        .npk-item .value {
+            font-size: 28px;
+            color: #ffa500;
+            font-weight: 600;
+        }
+
+        .npk-item .label {
+            color: #b0b0b0;
+            font-size: 14px;
+            font-weight: 500;
+            margin-top: 8px;
+        }
+
+        .chart-container {
+            height: 220px;
+            margin-top: 25px;
+            background: rgba(255,255,255,0.02);
+            border-radius: 10px;
+            padding: 15px;
+            border: 1px solid rgba(255,255,255,0.1);
+        }
+
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 20px;
+        }
+
+        .stat-item {
+            background: linear-gradient(135deg, rgba(0,212,255,0.1), rgba(0,153,204,0.1));
+            padding: 20px;
+            border-radius: 12px;
+            border: 1px solid rgba(0,212,255,0.2);
+            transition: all 0.3s ease;
+        }
+
+        .stat-item:hover {
+            transform: scale(1.02);
+            box-shadow: 0 8px 25px rgba(0,212,255,0.2);
+        }
+
+        .stat-item p {
+            margin: 8px 0;
+            color: #e0e0e0;
+            font-size: 15px;
+        }
+
+        .stat-item .stat-value {
+            font-weight: 700;
+            color: #00d4ff;
+            font-size: 18px;
+        }
+
+        .time-selector {
+            background: linear-gradient(135deg, #16213e, #0f3460);
+            padding: 20px;
+            border-radius: 12px;
+            margin-bottom: 25px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.2);
+            border: 1px solid rgba(255,255,255,0.1);
+        }
+
+        .time-selector select {
+            padding: 10px 15px;
+            border: 2px solid rgba(255,255,255,0.2);
+            border-radius: 8px;
+            background: rgba(255,255,255,0.05);
+            color: #e0e0e0;
+            font-size: 15px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .time-selector select:focus {
+            outline: none;
+            border-color: #00d4ff;
+            background: rgba(255,255,255,0.1);
+        }
+
+        .time-selector select option {
+            background: #16213e;
+            color: #e0e0e0;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                grid-template-columns: 1fr;
+            }
+
+            .header {
+                padding: 25px 20px;
+            }
+
+            .header h1 {
+                font-size: 24px;
+            }
+
+            .npk-values {
+                flex-direction: column;
+                gap: 15px;
+            }
+
+            .card {
+                padding: 20px;
+            }
+
+            .value {
+                font-size: 36px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div>
+            <h1>🌱 Sistema de Cultivos</h1>
+            <p class="subtitle">Monitoreo Inteligente de Suelos en Tiempo Real</p>
+        </div>
+        <button id="start-reading-btn" class="start-reading-btn">Iniciar Lectura de Sensores</button>
+        <a href="{{ url_for('logout') }}" class="logout-btn">Cerrar Sesión</a>
+    </div>
+    <div class="container">
+        <div class="card">
+            <h2>Humedad del Suelo</h2>
+            <div class="value" id="humidity-value">--</div>
+            <div class="unit">%</div>
+            <div class="chart-container">
+                <canvas id="humidity-chart"></canvas>
+            </div>
+        </div>
+        <div class="card">
+            <h2>Temperatura del Suelo</h2>
+            <div class="value" id="temperature-value">--</div>
+            <div class="unit">°C</div>
+            <div class="chart-container">
+                <canvas id="temperature-chart"></canvas>
+            </div>
+        </div>
+        <div class="card">
+            <h2>Estado del Suelo</h2>
+            <div class="value" id="soil-status-value">--</div>
+            <div class="unit"></div>
+        </div>
+        <div class="card">
+            <h2>Nutrientes NPK</h2>
+            <div class="npk-values">
+                <div class="npk-item">
+                    <div class="value" id="n-value">--</div>
+                    <div class="label">Nitrógeno</div>
+                    <div class="unit">mg/kg</div>
+                </div>
+                <div class="npk-item">
+                    <div class="value" id="p-value">--</div>
+                    <div class="label">Fósforo</div>
+                    <div class="unit">mg/kg</div>
+                </div>
+                <div class="npk-item">
+                    <div class="value" id="k-value">--</div>
+                    <div class="label">Potasio</div>
+                    <div class="unit">mg/kg</div>
+                </div>
+            </div>
+            <div style="background: rgba(255,255,255,0.05); padding: 15px; border-radius: 10px; margin-bottom: 20px; border: 1px solid rgba(255,255,255,0.1);">
+                <div style="color: #00d4ff; font-weight: 600; margin-bottom: 12px; display: flex; align-items: center; gap: 8px;">
+                    <span style="font-size: 16px;">🌱</span>
+                    Análisis del Suelo
+                </div>
+                <div id="soil-analysis-message" style="font-size: 14px; line-height: 1.5;">
+                    <!-- Mensaje se actualizará dinámicamente -->
+                </div>
+            </div>
+            <div class="chart-container">
+                <canvas id="npk-chart"></canvas>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="card">
+            <h2>Medición de Áreas</h2>
+            <div style="margin-bottom: 20px;">
+                <label for="num-areas" style="color: #b0b0b0; font-size: 14px; margin-bottom: 8px; display: block;">Número de áreas a medir:</label>
+                <select id="num-areas" style="padding: 8px 12px; border: 2px solid rgba(255,255,255,0.2); border-radius: 8px; background: rgba(255,255,255,0.05); color: #e0e0e0; font-size: 14px; cursor: pointer;">
+                    <option value="2">2 áreas</option>
+                    <option value="3">3 áreas</option>
+                    <option value="4">4 áreas</option>
+                    <option value="5">5 áreas</option>
+                    <option value="6">6 áreas</option>
+                </select>
+                <button id="start-area-measurement" style="background: linear-gradient(135deg, #00ff88, #00cc66); color: white; padding: 10px 20px; border-radius: 8px; border: none; cursor: pointer; font-weight: 500; margin-top: 10px; margin-left: 10px;">Iniciar Medición</button>
+            </div>
+            <div id="area-measurement-container" style="display: none; background: linear-gradient(135deg, #16213e, #0f3460); border-radius: 12px; padding: 20px; margin-top: 20px; border: 1px solid rgba(255,255,255,0.1); box-shadow: 0 4px 20px rgba(0,0,0,0.2);">
+                <div id="area-measurements"></div>
+                <div style="margin-top: 20px; padding: 15px; background: rgba(255,255,255,0.05); border-radius: 10px; border: 1px solid rgba(255,255,255,0.1);">
+                    <div style="color: #00d4ff; font-weight: 600; margin-bottom: 10px;">📊 Promedio de Áreas</div>
+                    <div id="area-average-results">
+                        <div style="color: #b0b0b0; font-style: italic;">Complete todas las mediciones para ver el promedio</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <h2>Último Mensaje HTTP</h2>
+            <div id="last-http-message">--</div>
+        </div>
+        <div class="card">
+            <h2>Estadísticas Generales</h2>
+            <div class="stats-grid" id="general-stats">
+                <div class="stat-item">
+                    <p>Total de lecturas</p>
+                    <p class="stat-value" id="total-readings">--</p>
+                </div>
+                <div class="stat-item">
+                    <p>Promedio Humedad</p>
+                    <p class="stat-value" id="avg-humidity">--%</p>
+                </div>
+                <div class="stat-item">
+                    <p>Promedio Temperatura</p>
+                    <p class="stat-value" id="avg-temperature">--°C</p>
+                </div>
+                <div class="stat-item">
+                    <p>Promedio Nitrógeno</p>
+                    <p class="stat-value" id="avg-n">-- mg/kg</p>
+                </div>
+                <div class="stat-item">
+                    <p>Promedio Fósforo</p>
+                    <p class="stat-value" id="avg-p">-- mg/kg</p>
+                </div>
+                <div class="stat-item">
+                    <p>Promedio Potasio</p>
+                    <p class="stat-value" id="avg-k">-- mg/kg</p>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <h2>Estadísticas Mensuales</h2>
+            <div class="chart-container">
+                <canvas id="monthly-chart"></canvas>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="card">
+            <h2>Datos Históricos</h2>
+            <div class="time-selector">
+                <select id="time-range">
+                    <option value="7">Últimos 7 días</option>
+                    <option value="30">Últimos 30 días</option>
+                    <option value="90">Últimos 90 días</option>
+                </select>
+            </div>
+            <div class="chart-container">
+                <canvas id="historical-chart"></canvas>
+            </div>
+        </div>
+    </div>
+
+    <script src="/static/script.js"></script>
+</body>
+</html>
